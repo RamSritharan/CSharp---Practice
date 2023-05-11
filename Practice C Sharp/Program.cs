@@ -1,13 +1,10 @@
-﻿using System;
+﻿Console.WriteLine("Hello everybody");
 
-namespace HelloWorld
-{
-    class Program
-    { static void Main()
-        {
-            Console.WriteLine("Hello Worldfcc!");
-        }
-    }
-}
+Console.WriteLine("Please enter your name: ");
+string firstName = Console.ReadLine();
+
+Console.WriteLine("Please enter your name: ");
+string lastName = Console.ReadLine();
+
 
 
