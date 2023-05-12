@@ -1,10 +1,72 @@
-﻿Console.WriteLine("Hello everybody");
+﻿//Console.WriteLine("Hello everybody");
 
-Console.WriteLine("Please enter your name: ");
-string firstName = Console.ReadLine();
+//Console.WriteLine("Please enter your name: ");
+//string firstName = Console.ReadLine();
 
-Console.WriteLine("Please enter your name: ");
-string lastName = Console.ReadLine();
+//Console.WriteLine("Please enter your name: ");
+//string lastName = Console.ReadLine();
+
+//Console.WriteLine("Hello ");
+
+
+//int a = 3;
+
+//int b = 5;
+
+//int c = a + b;
+
+////Console.WriteLine(c);
+
+
+
+////int a = 1;
+
+////a+= 2;
+
+////Console.WriteLine(a);
+
+
+//DateTime hireDate = new DateTime(2022, 3, 28, 14, 30, 00);
+
+//DateTime startDate = hireDate.AddDays(15);
+
+
+//Console.WriteLine(hireDate);
+
+
+//int numberOfHoursWorked = 165;
+
+//long verLongMonth = numberOfHoursWorked;
+
+//Console.WriteLine(verLongMonth);
+
+//double d = 1234433.5332;
+
+//int x = (int)d;
+
+//Console.WriteLine(x);
+
+
+Console.WriteLine("Enter first value");
+string stringValue1 = Console.ReadLine();
+
+Console.WriteLine("Enter second value");
+string stringValue2 = Console.ReadLine();
+
+
+int intValue1 = int.Parse(stringValue1);
+int intValue2 = int.Parse(stringValue2);
+
+var sum = intValue1 + intValue2;
+
+
+
+
+
+
+
+
+
 
 
 
