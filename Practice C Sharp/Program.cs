@@ -102,6 +102,17 @@ static void CalculateYearlyWage(int monthlyWage, int numberOfMonthsWorked)
 }
 
 
+//mthods
+
+public class Utilities
+{
+    public static int MultiplyTwoNumbers(int a, int b)
+    {
+        return a * b
+    }
+}
+
+
 
 
 
