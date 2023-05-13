@@ -47,20 +47,59 @@
 //Console.WriteLine(x);
 
 
-Console.WriteLine("Enter first value");
-string stringValue1 = Console.ReadLine();
+//Console.WriteLine("Enter first value");
+//string stringValue1 = Console.ReadLine();
 
-Console.WriteLine("Enter second value");
-string stringValue2 = Console.ReadLine();
-
-
-int intValue1 = int.Parse(stringValue1);
-int intValue2 = int.Parse(stringValue2);
-
-var sum = intValue1 + intValue2;
+//Console.WriteLine("Enter second value");
+//string stringValue2 = Console.ReadLine();
 
 
+//int intValue1 = int.Parse(stringValue1);
+//int intValue2 = int.Parse(stringValue2);
 
+//var sum = intValue1 + intValue2;
+
+
+
+//Console.WriteLine("Enter a value: ");
+//int max = int.Parse(Console.ReadLine());
+
+//for (int i = 0; i < max; i++)
+//{
+//    if (i == 5)
+//    {
+//        Console.WriteLine("bingo!" + i);
+//        continue;
+//    }
+//    Console.WriteLine(i);
+//}
+
+
+
+//for (int i = 0; i < 10; i++)
+//{
+//    Console.WriteLine(i);
+//}
+
+
+//if statements
+
+
+//
+//methods
+
+
+int amount = 1234;
+int months = 12;
+
+CalculateYearlyWage(amount, months);
+
+Console.ReadLine(); 
+
+static void CalculateYearlyWage(int monthlyWage, int numberOfMonthsWorked)
+{
+    Console.Write($"Yearly wage: {monthlyWage * numberOfMonthsWorked}");
+}
 
 
 
