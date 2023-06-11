@@ -255,3 +255,45 @@
 
 
 
+
+//Lists
+//List<int> employeeIds = new List<int>();
+
+//public string FirstName ()
+//{
+//    get {
+//        return firstName;
+//    }
+//    private set {
+//        firstName = value;
+//    }
+//}
+
+//You can use get and set to access these variables in ther parts of the program. set can be private, blocking any data from being added in.
+//
+
+//Inheritance in C#
+
+//public class Employee
+//{
+
+//}
+
+//public class Manager : Employee
+//{
+
+//}
+
+//Polymorphism
+//adding virtual allows inheriting types to have have their own version of a specific method
+//public virtual void GiveBonsus() //different bonuses for different employees use override for specific implementations
+
+//Different Custom Categories of Types
+//Enum, Struct, Class, Interface, Delegate
+
+//Interfaces
+//Interfaces are contracts thaht must be implemented by classes that use
+//internal interface IEmployee
+
+
+
